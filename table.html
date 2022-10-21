@@ -1,103 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bus reservation list</title>
 </head>
+
 <body bgcolor="lightgray">
+	<table border="1" width="100%" min-heigth="600px" bgcolor="white" style="height: 800px">
+		<tr>
+			<td colspan=3 style="height: 100px">
+				<table cellspacing="20px" width="100%">
+					<tbody>
+						<tr>
 
-<fieldset style="width:700px;background:white">
-<legend>.....</legend>
+							<td width="100px">
+								<img src="./logo.png" alt="Logo" width="100px" />
+							</td>
 
-<table border="1" width="700px">
+							<td align="left">
+								<a href="./index.html">
+									<font color="blue" size="6">Public Bus reservation</font>
+								</a>
+							</td>
 
-<caption><h1>Reservation list</h1></caption>
-<thead>
+							<td>
+								<a href="./table.html">
+									<font color="blue" size="4">Reservation</font>
+								</a>
+							</td>
 
-<tr>
-	<th> Bus No </th>
-	<th> Bus </th>
-	<th> From city </th>
-	<th> To city </th>
-	<th> Date </th>
-	<th> Time </th>
-	<th> Price </th>
-	<th> Action </th>
-</tr>
-</thead>
+							<td>
+								<a href="./about.html">
+									<font color="blue" size="4">About us</font>
+								</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
 
-<tbody>
+		<tr>
+			<td rowspan=1 width="15%" valign="top">
+				<p>
+					Best travels
+				</p>
 
-<tr>
-	<td>104</td>
-	<td>
-		<img title="sawir ka buska" src="./sawiro/bus1.png" alt="not found image" width="50px"; />
-	</td>
-	<td>Bosaso</td>
-	<td>Garowe</td>
-	<td>2022-10-21</td>
-	<td>05:00AM</td>
-	<td>$18.00</td>
-	<td>
-		<a href="./booking.html?busNo=104" > Book now </a>
-	</td>
-
-</tr>
-
-
-<tr bgcolor="lightgray">
-	<td>600</td>
-	<td>
-		<img title="sawir ka buska" src="./sawiro/bus2.png" alt="not found image" width="50px"; />
-	</td>
-	<td>Baran</td>
-	<td>Lascanod</td>
-	<td>2022-10-22</td>
-	<td>05:00AM</td>
-	<td>$12.00</td>
-	<td>
-		<a href="./booking.html?busNo=600" > Book now </a>
-	</td>
+				<p>
+					Pricing
+				</p>
 
 
+			</td>
 
-<tr>
-	<td>700</td>
-	<td>
-		<img title="sawir ka buska" src="./sawiro/bus3.png" alt="not found image" width="50px"; />
-	</td>
-	<td>Bosaso</td>
-	<td>Hargaysa</td>
-	<td>2022-10-20</td>
-	<td>06:00AM</td>
-	<td>$40.00</td>
-	<td>
-		<a href="./booking.html?busNo=700" > Book now </a>
-	</td>
+			<td  align="center" style="padding: 10px;">
+
+				<fieldset>
+					<legend>.....</legend>
+
+					<table border="1" width="700px">
+
+						<caption>
+							<h1>Reservation list</h1>
+						</caption>
+						<thead>
+
+							<tr>
+								<th> Bus No </th>
+								<th> Bus </th>
+								<th> From city </th>
+								<th> To city </th>
+								<th> Date </th>
+								<th> Time </th>
+								<th> Price </th>
+								<th> Action </th>
+							</tr>
+						</thead>
+
+						<tbody>
+
+							<tr>
+								<td>104</td>
+								<td>
+									<img title="sawir ka buska" src="./sawiro/bus1.png" alt="not found image"
+										width="50px" ; />
+								</td>
+								<td>Bosaso</td>
+								<td>Garowe</td>
+								<td>2022-10-21</td>
+								<td>05:00AM</td>
+								<td>$18.00</td>
+								<td>
+									<a href="./booking.html?busNo=104"> Book now </a>
+								</td>
+
+							</tr>
 
 
-</tbody>
+							<tr bgcolor="lightgray">
+								<td>600</td>
+								<td>
+									<img title="sawir ka buska" src="./sawiro/bus2.png" alt="not found image"
+										width="50px" ; />
+								</td>
+								<td>Baran</td>
+								<td>Lascanod</td>
+								<td>2022-10-22</td>
+								<td>05:00AM</td>
+								<td>$12.00</td>
+								<td>
+									<a href="./booking.html?busNo=600"> Book now </a>
+								</td>
 
 
-<tfoot>
-	<tr bgcolor="gray">
-		<th colspan="8"> 
-			<font color="yellow"> <i>Note: lacag laguuma soo celin doono hadaad dalbato ticket</i>  </font>
-		</th>
 
-	</tr>
-</tfoot>
+							<tr>
+								<td>700</td>
+								<td>
+									<img title="sawir ka buska" src="./sawiro/bus3.png" alt="not found image"
+										width="50px" ; />
+								</td>
+								<td>Bosaso</td>
+								<td>Hargaysa</td>
+								<td>2022-10-20</td>
+								<td>06:00AM</td>
+								<td>$40.00</td>
+								<td>
+									<a href="./booking.html?busNo=700"> Book now </a>
+								</td>
+
+
+						</tbody>
+
+
+						<tfoot>
+							<tr bgcolor="gray">
+								<th colspan="8">
+									<font color="yellow"> <i>Note: lacag laguuma soo celin doono hadaad dalbato
+											ticket</i> </font>
+								</th>
+
+							</tr>
+						</tfoot>
 
 
 
 
 
 
-</table>
+					</table>
 
-</fieldset>
-    
+				</fieldset>
+			</td>
+
+			<td width="15%" align="center">
+				<h4>Xayeysiis</h4>
+				<img src="./sawiro/home2.gif" alt="" width="200px" />
+				<p>
+					<img src="./sawiro/ads1.gif" alt="" width="200px" />
+				</p>
+
+				<p>
+				<h2>Safaro</h2>
+				<marquee behavior="scroll" direction="up">
+					<img src="./sawiro/ads2.gif" alt="" width="200px" />
+				</marquee>
+				</p>
+			</td>
+
+		</tr>
+
+		<tr>
+			<td colspan=3 style="height: 100px" align="center">
+				&copy; Waxaanu shaqaynay mudo dhan ayaamo 2022 ila 2022
+			</td>
+		</tr>
+	</table>
 </body>
+
 </html>
